@@ -11,6 +11,7 @@ public class LogTraceConfig {
     @Bean
     public LogTrace logTrace(){
 //        return new FieldLogTrace();
+//        commit check
         return new ThreadLocalLogTrace();
     }
 }
